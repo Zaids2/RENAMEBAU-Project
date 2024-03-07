@@ -1,0 +1,40 @@
+*{margin: 0px;
+padding: 0px;
+box-sizing: border-box;}
+.iteam1{grid-area: HOME;}
+.iteam2{grid-area: NEWS;}
+.iteam3{grid-area: CONTACT;}
+.iteam4{grid-area: ABOUT;}
+
+.grid{
+    display: grid;
+    grid-template-areas:'HOME NEWS CONTACT ABOUT' ;
+    grid-template-columns: 10% 10% 10% 11%;
+    background-color: lightskyblue;
+    text-align: center;
+    
+    justify-content: end;
+    a{  font-size: 1.5vw;
+        color: white;
+        text-decoration: none;
+        display: block;
+        padding: 10px;
+        border-right:1px solid white;
+        height: 100%;
+      
+        
+        
+        }
+   
+    
+    
+    
+}
+.about{
+    border: none;
+   
+}
+
+a:hover{
+    background-color: aqua;
+}
