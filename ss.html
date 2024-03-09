@@ -13,8 +13,25 @@
     <div class="iteam3"><a href="">CONTACT</a></div>
     <div class="iteam4"><a class="about" href="">ABOUT US</a></div>
  </nav>
+ 
  <div style="font: 100px helHelvetica, sans-serif;">zaid waleed</div>
+ <div class="box"></div>
+ <button onclick="changeColor()">Change Color</button>
+ 
+ <!--write an animation for the box with the box code-->
+<style>
+    @keyframes boxAnimation {
+        0% { background-color: red; }
+        50% { background-color: blue; }
+        100% { background-color: green; }
+    }
 
+    .box {
+        width: 100px;
+        height: 100px;
+        animation: boxAnimation 3s infinite;
+    }
+</style>
 
 
 
